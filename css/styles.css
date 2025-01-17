@@ -3,6 +3,12 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: rgb(144, 146, 159);
+  background: linear-gradient(
+    180deg,
+    rgba(144, 146, 159, 1) 0%,
+    rgba(77, 77, 77, 1) 100%
+  );
 }
 
 header {
@@ -95,23 +101,6 @@ iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 9; /* Maintain the aspect ratio of 1280x720 */
-  border: none; /* Optional: Remove border if any */
-}
-
-.report-dashboard {
-  height: 75vh;
-}
-
-.report-correlation {
-  height: 35vh;
-}
-
-.code-explain {
-  margin: 1rem 0;
-  padding: 0;
-}
-
-.question-section div {
-  margin: 2rem 0;
-  padding: 1rem 0;
+  border: 5px solid black; /* Optional: Remove border if any */
+  border-radius: 15px;
 }
